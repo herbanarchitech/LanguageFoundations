@@ -5,7 +5,9 @@ One room costs nothing if you are 60 (the age of the innkeeper), or 5 dollars if
 */
 #include <stdio.h>
 
-void main() {
+  void main() {
+
+
 
 	int age;
 
@@ -17,6 +19,8 @@ void main() {
 
 	int luggage;
 
+	scanf("%d",&luggage);
+
 
 
 	if(age == 60) 
@@ -25,8 +29,25 @@ void main() {
 	if (age >= 1 && age < 10)
 		printf("you owe five dollars\n");
 
-	if((age >10 && age < 60 && luggage < 20) || (age > 60 && luggage < 20 ))
-		printf("you owe me 30\n");
+	if(age >10 && age < 60) {
+
+		if(luggage < 20){
+
+
+	}
+			
+
+
+			
+			
+			
+			|| (age > 60 && luggage < 20 )){
+		printf("30 dollar");
+	}
+	
+	if((age >10 && age < 60 && luggage >= 20) || (age > 60 && luggage >= 20 ))
+		printf("40");
+	
 
 }
 

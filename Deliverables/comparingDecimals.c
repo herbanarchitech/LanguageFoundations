@@ -13,3 +13,22 @@ int main( void){
     
     total = d1 + d2;
     
+    result = total >= 10;
+    
+    if(result) {
+        
+     printf("Special Tax\n");
+     printf("36\n");
+        
+    }
+    
+    
+    else{ 
+        printf("Regular Tax\n");
+        printf("14\n");
+    }
+    
+    
+    
+    return 0;
+}  

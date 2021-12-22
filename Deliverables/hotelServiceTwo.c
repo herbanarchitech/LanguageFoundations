@@ -7,9 +7,8 @@ One room costs nothing if you are 60 (the age of the innkeeper), or 5 dollars if
 
   void main() {
 
-
-
-	int age;
+	int age, normal_fee , extra_fee;
+	normal_fee = 30, extra_fee =10;
 
 	printf("Enter your age\n");
 
@@ -33,12 +32,26 @@ One room costs nothing if you are 60 (the age of the innkeeper), or 5 dollars if
 
 		if(luggage < 20){
 
+			printf("%d",normal_fee);
+		}else{
+			printf("%d",normal_fee+=extra_fee);
+		}
+
 
 	}
-			
 
+	if(age > 60) {
+		if(luggage < 20) {
+			printf("%d",normal_fee);
 
-			
+		} else {
+			printf("%d",normal_fee+=extra_fee);
+
+		}
+
+	}
+
+			/*
 			
 			
 			|| (age > 60 && luggage < 20 )){
@@ -47,7 +60,7 @@ One room costs nothing if you are 60 (the age of the innkeeper), or 5 dollars if
 	
 	if((age >10 && age < 60 && luggage >= 20) || (age > 60 && luggage >= 20 ))
 		printf("40");
-	
+	*/
 
 }
 

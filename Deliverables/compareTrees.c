@@ -24,19 +24,34 @@ void main() {
 
 
 		} else{
+			// in this series of a nested if else statments will use be used to identify the characteristics of trees based on user inputs
+			// in this elseif statemt  if the tree is at most eight meters and leaflets are at least 10 
 			if(height <=8 && number <=5){
+
 				printf("Falarion\n");
 			} else {
 				if(height >=10 && number >=10) {
 					printf("Calaelen");
+				} else {
+					if(height >=12 && number >=7) {
+						printf("Dorthronion");
+					} else {
+
+						printf("Uncertain");
+					}
 				}
 
 			}
-
 		}
 
 
 }
+
+
+
+
+
+
 		
 
 

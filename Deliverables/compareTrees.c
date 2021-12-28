@@ -23,22 +23,29 @@ void main() {
 		printf("Tinuviel");
 
 
-		}else{
+		} else{
 			if(height <=8 && number <=5){
 				printf("Falarion\n");
+			} else {
+				if(height >=10 && number >=10) {
+					printf("Calaelen");
+				}
+
 			}
-			else 
-				printf("N/A");
 
 		}
 
 
-	
-
-
-
-
 }
+		
+
+
+
+
+
+
+
+		
 
 
 

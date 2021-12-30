@@ -1,21 +1,36 @@
-#define ARRAY_LEN 6
 #include <stdio.h>
 
 
 void main() {
 
-	int a[6] = {1, 4, 5, 6 , 0, 8};
-	int pos = 3;
-	 
+	int a[10];
+	int pos, integers;
 
 
-	for( int i=0; i < ARRAY_LEN; i++) {
-		printf("%d\n",a[i]);
+	printf("Enter elements for array \n");
+
+
+	for( int i=0; i < 10; i++) {
+		scanf("%d",&a[i]);
+
+	}
+
+	printf("Enter the position to see the element\n");
+	scanf("%d",&pos);
+
+
+	printf("Here are the elements\n");
+
+	for( int i=0; i < 10;i++) {
+		printf(" %d ",a[i]);
 
 	}
 
 
-	printf("Here is the %d  is element: %d ",pos, a[pos]);
+
+
+	
+	printf("Here is the %d  is element: %d\n",pos, a[pos]);
 
 }
 

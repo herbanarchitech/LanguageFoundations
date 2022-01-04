@@ -26,11 +26,12 @@ Output
 2.0
 17.0
 -11.0 */
+
 #include <stdio.h>
 
 void main() {
 
-	int numOfBoxCAr , weight_arr[numOfBoxCAr];
+	int numOfBoxCAr , weight_arr[50];
 	float weight;
 
 
@@ -47,7 +48,7 @@ void main() {
 
 
 	for(int i =0; i < numOfBoxCAr; i++) {
-		printf("%d",weight_arr[i]);
+		printf("%d\n",weight_arr[i]);
 
 	}
 
